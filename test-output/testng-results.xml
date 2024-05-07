@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26257" started-at="2024-05-07T15:08:37 EDT" finished-at="2024-05-07T15:09:03 EDT">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="26257" started-at="2024-05-07T15:08:37 EDT" finished-at="2024-05-07T15:09:03 EDT">
+      <class name="com.tktres.booking.TestCaseBooking">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tktres.booking.TestCaseBooking@133e16fd]" name="setup" is-config="true" duration-ms="7924" started-at="2024-05-07T15:08:37 EDT" finished-at="2024-05-07T15:08:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookingTest()[pri:1, instance:com.tktres.booking.TestCaseBooking@133e16fd]" name="bookingTest" duration-ms="4919" started-at="2024-05-07T15:08:45 EDT" finished-at="2024-05-07T15:08:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingTest -->
+        <test-method status="PASS" signature="confirmationTest()[pri:2, instance:com.tktres.booking.TestCaseBooking@133e16fd]" name="confirmationTest" duration-ms="10381" started-at="2024-05-07T15:08:50 EDT" finished-at="2024-05-07T15:09:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tktres.booking.TestCaseBooking@133e16fd]" name="tearDown" is-config="true" duration-ms="2272" started-at="2024-05-07T15:09:01 EDT" finished-at="2024-05-07T15:09:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tktres.booking.TestCaseBooking -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
